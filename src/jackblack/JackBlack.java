@@ -27,7 +27,7 @@ public class JackBlack {
         int score = 0;
         String userInputStr;
         boolean play = true;
-        final int OPPONENT = (int)Math.random()*21+12;
+        final int OPPONENT = (int)Math.random()*(21-12)+12;
         System.out.println("Here are your cards");
         
        
